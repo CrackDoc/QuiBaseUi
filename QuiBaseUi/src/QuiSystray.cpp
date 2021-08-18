@@ -36,7 +36,12 @@ CQuiSystray::CQuiSystray(QWidget*parent)
 CQuiSystray::~CQuiSystray()
 {
 	delete m_TrayIcon;
-	m_TrayIcon = NULL;
+
+	m_TrayIcon = nullptr;
+
+	delete m_pTrayIconMenu;
+
+	m_pTrayIconMenu = nullptr;
 }
 void CQuiSystray::slotActivated(QSystemTrayIcon::ActivationReason reason)
 {

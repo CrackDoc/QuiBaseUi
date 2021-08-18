@@ -31,7 +31,7 @@ CQuiBaseDialog::CQuiBaseDialog(QWidget* parent)
 
 bool CQuiBaseDialog::eventFilter(QObject *watched, QEvent *event)
 {
-	if (watched == ui->titlebar  || watched == ui->WinCloseBtn)
+	if (watched == ui->titlebar  || watched == ui->WinCloseBtn || watched == ui->content)
 	{
 		setCursor(Qt::ArrowCursor);
 	}

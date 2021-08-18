@@ -20,102 +20,102 @@ public:
 	~CQuiBaseWidget();
 
 	/**
-	 * @fn       SetDialogTitle
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 10:08
-	 * @param    
-	 * @return   
+	 * @fn       SetDialogTitle
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 10:08
+	 * @param    
+	 * @return   
 	*/
 	void SetDialogTitle(const QString& strTitle);
 
 	/**
-	 * @fn       SetDialogWidget(QWidget *widget)
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 10:12
-	 * @param    
-	 * @return   
+	 * @fn       SetDialogWidget(QWidget *widget)
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 10:12
+	 * @param    
+	 * @return   
 	*/
 	bool SetDialogWidget(QWidget* widget);
 
 	/**
-	 * @fn       SetDialogTitleBar(QWidget* titleBar)
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 10:15
-	 * @param    
-	 * @return   
+	 * @fn       SetDialogTitleBar(QWidget* titleBar)
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 10:15
+	 * @param    
+	 * @return   
 	*/
 	bool SetDialogTitleBar(QWidget* titleBar);
 
 	/**
-	 * @fn       Initialize
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 10:17
-	 * @param    
-	 * @return   
+	 * @fn       Initialize
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 10:17
+	 * @param    
+	 * @return   
 	*/
 	void Initialize();
 
 	/**
-	 * @fn       SetContentsMargins
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 10:21
-	 * @param    
-	 * @return   
+	 * @fn       SetContentsMargins
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 10:21
+	 * @param    
+	 * @return   
 	*/
 	void SetContentsMargins(const QMargins& margins);
 
 	/**
-	 * @fn       EnableShadow(bool bEnabled)
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 10:22
-	 * @param    
-	 * @return   
+	 * @fn       EnableShadow(bool bEnabled)
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 10:22
+	 * @param    
+	 * @return   
 	*/
 	void EnableShadow(bool bEnabled);
 	
 	/**
-	 * @fn       EnableDialogStretch
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 10:28
-	 * @param    
-	 * @return   
+	 * @fn       EnableDialogStretch
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 10:28
+	 * @param    
+	 * @return   
 	*/
 	void EnableDialogStretch(bool bStretch);
 
 	/**
-	 * @fn       SetQuiStyleSheet
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 10:45
-	 * @param    
-	 * @return   
+	 * @fn       SetQuiStyleSheet
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 10:45
+	 * @param    
+	 * @return   
 	*/
 	void SetQuiStyleSheet(const QString& strSytleSheet);
 
 	/**
-	 * @fn       EnableTitleBar
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 13:29
-	 * @param    
-	 * @return   
+	 * @fn       EnableTitleBar
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 13:29
+	 * @param    
+	 * @return   
 	*/
 	void EnableTitleBar(bool bEnabled);
 
 	/**
-	 * @fn       EnableWidget
-	 * @author   Crack
-	 * @brief       
-	 * @date     2021/8/17 13:30
-	 * @param    
-	 * @return   
+	 * @fn       EnableWidget
+	 * @author   Crack
+	 * @brief       
+	 * @date     2021/8/17 13:30
+	 * @param    
+	 * @return   
 	*/
 	void EnableWidget(bool bEnabled);
 

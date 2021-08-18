@@ -30,7 +30,7 @@ CQuiBaseWidget::CQuiBaseWidget(QWidget* parent)
 
 bool CQuiBaseWidget::eventFilter(QObject *watched, QEvent *event)
 {
-	if (watched == ui->titlebar  || watched == ui->WinCloseBtn)
+	if (watched == ui->titlebar  || watched == ui->WinCloseBtn || watched == ui->content)
 	{
 		setCursor(Qt::ArrowCursor);
 	}
@@ -42,7 +42,6 @@ bool CQuiBaseWidget::eventFilter(QObject *watched, QEvent *event)
 	
 	return QWidget::eventFilter(watched, event);
 }
-
 CQuiBaseWidget::~CQuiBaseWidget()
 {
 
@@ -200,7 +199,7 @@ void CQuiBaseWidget::mouseMoveEvent(QMouseEvent *event)
 			move(pos-m_MousePosOfWindow);
 		}
 	}
-
+	//setCursor(Qt::ArrowCursor);
 	QWidget::mouseMoveEvent(event);
 }
 
