@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/win_close.png</file>
+        <file>resource/TrayIcon.png</file>
+    </qresource>
+</RCC>
