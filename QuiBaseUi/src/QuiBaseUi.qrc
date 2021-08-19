@@ -2,5 +2,16 @@
     <qresource prefix="/">
         <file>resource/win_close.png</file>
         <file>resource/TrayIcon.png</file>
+        <file>resource/right-arrow.png</file>
+        <file>resource/update1_hover.png</file>
+        <file>resource/update2.png</file>
+        <file>resource/update2_hover.png</file>
+        <file>resource/win_close_black.png</file>
+        <file>resource/win_max.png</file>
+        <file>resource/win_menu.png</file>
+        <file>resource/win_min.png</file>
+        <file>resource/win_min_hover.png</file>
+        <file>resource/win_remax.png</file>
+        <file>resource/win_set.png</file>
     </qresource>
 </RCC>

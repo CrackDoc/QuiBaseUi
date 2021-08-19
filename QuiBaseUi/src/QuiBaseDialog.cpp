@@ -22,7 +22,7 @@ CQuiBaseDialog::CQuiBaseDialog(QWidget* parent)
 	ui->setupUi(this);
 
 	//关闭windows边缘
-	setWindowFlags(Qt::Dialog|Qt::FramelessWindowHint|Qt::Tool);
+	setWindowFlags(Qt::Dialog | Qt::FramelessWindowHint | Qt::Tool);
 	setAttribute(Qt::WA_TranslucentBackground);
 	setMouseTracking(true);
 	//初始化界面

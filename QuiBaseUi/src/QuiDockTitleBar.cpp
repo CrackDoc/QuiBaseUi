@@ -1,7 +1,6 @@
 #include "QuiDockTitleBar.h"
 #include <QEvent>
 #include <QMouseEvent>
-#include <QStyle>
 #include <QHBoxLayout>
 #include <QPushButton>
 #include <QLabel>
@@ -71,7 +70,6 @@ void CQuiDockTitleBar::Initialize(E_BAR_TYPE type)
 	m_HLayout->addSpacerItem(SpaceItem);
 	if (type == e_DockBar)
 	{
-		//this->setMinimumHeight(25);
 		QPushButton* MinBtn = new QPushButton(this);
 		MinBtn->setFlat(true);
 		MinBtn->resize(QSize(20, 20));
@@ -81,9 +79,10 @@ void CQuiDockTitleBar::Initialize(E_BAR_TYPE type)
 		QPushButton* ClosBtn = new QPushButton(this);
 		ClosBtn->setFlat(true);
 		ClosBtn->resize(QSize(20, 20));
-		MinBtn->setIcon(style()->standardIcon(QStyle::SP_TitleBarMinButton));
-		MaxBtn->setIcon(style()->standardIcon(QStyle::SP_TitleBarNormalButton));
-		ClosBtn->setIcon(style()->standardIcon(QStyle::SP_TitleBarCloseButton));
+
+		MinBtn->setIcon(QPixmap(":/resource/win_min.png"));
+		MaxBtn->setIcon(QPixmap(":/resource/win_remax.png"));
+		ClosBtn->setIcon(QPixmap(":/resource/win_close.png"));
 
 		connect(MinBtn, SIGNAL(clicked()), this, SIGNAL(SignalMiniWindow()));
 
